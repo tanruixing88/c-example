@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "common.h"
 
 int bin_search(int* a, int n, int e) {
 	if (a == NULL || n <= 0) {
@@ -30,18 +30,4 @@ int bin_search(int* a, int n, int e) {
 	}
 
 	return -1;
-}
-
-int main() {
-	printf("bin_search one element:\r\n");
-	printf("test case1:\r\n");
-	int a1[10] = {1, 3, 7, 9, 10, 23, 45, 55, 67, 71};
-	int index1 = bin_search(a1, 10, 71);
-	printf("return index:%d\r\n", index1);
-	printf("test case2:\r\n");
-	int a2[2] = {7, 8};
-	int index2 = bin_search(a2, 2, 9);
-	printf("return index:%d\r\n", index2);
-	getchar();
-	return 0;
 }
