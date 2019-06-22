@@ -39,8 +39,8 @@ int main() {
 	int index1 = bin_search(a1, 10, 71);
 	printf("return index:%d\r\n", index1);
 	printf("test case2:\r\n");
-	int a2[1] = {7};
-	int index2 = bin_search(a2, 1, 7);
+	int a2[2] = {7, 8};
+	int index2 = bin_search(a2, 2, 9);
 	printf("return index:%d\r\n", index2);
 	getchar();
 	return 0;

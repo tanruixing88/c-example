@@ -1,0 +1,7 @@
+algorithm/Debug
+algorithm/*.ncb
+algorithm/*.suo
+algorithm/*.sln
+algorithm/algorithm
+
+*.swp
